@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/cubesat-energy-efficiency/MPU6050.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MPU6050_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/cubesat-energy-efficiency/i2c_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/cubesat-energy-efficiency/power_on_rst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module power_on_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/cubesat-energy-efficiency/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/cubesat-energy-efficiency/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.ip_user_files/bd/design_1/ip/design_1_MPU6050_ctrl_0_0/sim/design_1_MPU6050_ctrl_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_MPU6050_ctrl_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.ip_user_files/bd/design_1/ip/design_1_i2c_master_0_0/sim/design_1_i2c_master_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_i2c_master_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.ip_user_files/bd/design_1/ip/design_1_power_on_rst_0_0/sim/design_1_power_on_rst_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_power_on_rst_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.ip_user_files/bd/design_1/ip/design_1_uart_rx_0_0/sim/design_1_uart_rx_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_uart_rx_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.ip_user_files/bd/design_1/ip/design_1_uart_tx_0_0/sim/design_1_uart_tx_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_uart_tx_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/Vivado Projects/cubesat_energy_efficiency/cubesat_energy_efficiency.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engenheiro/Arquivos Linux/Arquivos/Projetos/Residencia FPGA/Projetos/projetos-SV-VHDL/Verilog/i2c/mpu6050/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

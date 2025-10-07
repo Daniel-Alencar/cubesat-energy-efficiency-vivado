@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,637.423 ns"></ZoomEndTime>
+      <Cursor1Time time="60.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="249"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/testbench/dut/design_1_i/SCL">
+      <obj_property name="ElementShortName">SCL</obj_property>
+      <obj_property name="ObjectShortName">SCL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/dut/design_1_i/SDA">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/dut/design_1_i/dev_clk">
+      <obj_property name="ElementShortName">dev_clk</obj_property>
+      <obj_property name="ObjectShortName">dev_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/dut/design_1_i/rx">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/dut/design_1_i/tx">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/dut/design_1_i/MPU6050_ctrl_0_i2c_address">
+      <obj_property name="ElementShortName">MPU6050_ctrl_0_i2c_address[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MPU6050_ctrl_0_i2c_address[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group474">
+      <obj_property name="label">i2c_master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/clk_in">
+         <obj_property name="ElementShortName">clk_in</obj_property>
+         <obj_property name="ObjectShortName">clk_in</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/n_rst">
+         <obj_property name="ElementShortName">n_rst</obj_property>
+         <obj_property name="ObjectShortName">n_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/rd_wr_in">
+         <obj_property name="ElementShortName">rd_wr_in</obj_property>
+         <obj_property name="ObjectShortName">rd_wr_in</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/continuous_in">
+         <obj_property name="ElementShortName">continuous_in</obj_property>
+         <obj_property name="ObjectShortName">continuous_in</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/enable_in">
+         <obj_property name="ElementShortName">enable_in</obj_property>
+         <obj_property name="ObjectShortName">enable_in</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dut/design_1_i/i2c_master_0/address_in">
+         <obj_property name="ElementShortName">address_in[6:0]</obj_property>
+         <obj_property name="ObjectShortName">address_in[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dut/design_1_i/i2c_master_0/data_bytes_in">
+         <obj_property name="ElementShortName">data_bytes_in[5:0]</obj_property>
+         <obj_property name="ObjectShortName">data_bytes_in[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dut/design_1_i/i2c_master_0/wr_data_in">
+         <obj_property name="ElementShortName">wr_data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/ready_out">
+         <obj_property name="ElementShortName">ready_out</obj_property>
+         <obj_property name="ObjectShortName">ready_out</obj_property>
+         <obj_property name="CustomSignalColor">#0000FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/wr_valid_out">
+         <obj_property name="ElementShortName">wr_valid_out</obj_property>
+         <obj_property name="ObjectShortName">wr_valid_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/rd_valid_out">
+         <obj_property name="ElementShortName">rd_valid_out</obj_property>
+         <obj_property name="ObjectShortName">rd_valid_out</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dut/design_1_i/i2c_master_0/rd_data_out">
+         <obj_property name="ElementShortName">rd_data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dut/design_1_i/i2c_master_0/value_state">
+         <obj_property name="ElementShortName">value_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">value_state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/SCL">
+         <obj_property name="ElementShortName">SCL</obj_property>
+         <obj_property name="ObjectShortName">SCL</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/SDA">
+         <obj_property name="ElementShortName">SDA</obj_property>
+         <obj_property name="ObjectShortName">SDA</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/inst/SCL_busy_reg">
+         <obj_property name="ElementShortName">SCL_busy_reg</obj_property>
+         <obj_property name="ObjectShortName">SCL_busy_reg</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/i2c_master_0/inst/ready_reg">
+         <obj_property name="ElementShortName">ready_reg</obj_property>
+         <obj_property name="ObjectShortName">ready_reg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group613">
+      <obj_property name="label">power_on_rst</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/power_on_rst_0/inst/clk_in">
+         <obj_property name="ElementShortName">clk_in</obj_property>
+         <obj_property name="ObjectShortName">clk_in</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/power_on_rst_0/inst/n_rst_out">
+         <obj_property name="ElementShortName">n_rst_out</obj_property>
+         <obj_property name="ObjectShortName">n_rst_out</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dut/design_1_i/power_on_rst_0/inst/rst_reg">
+         <obj_property name="ElementShortName">rst_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rst_reg[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

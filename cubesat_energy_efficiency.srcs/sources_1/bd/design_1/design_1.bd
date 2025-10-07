@@ -1,0 +1,545 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xAB5A2518F3520DFF",
+      "device": "xc7a50tfgg484-1",
+      "gen_directory": "../../../../cubesat_energy_efficiency.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2"
+    },
+    "design_tree": {
+      "MPU6050_ctrl_0": "",
+      "i2c_master_0": "",
+      "power_on_rst_0": "",
+      "uart_rx_0": "",
+      "uart_tx_0": "",
+      "clk_wiz_0": ""
+    },
+    "ports": {
+      "dev_clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "25000000"
+          }
+        }
+      },
+      "SCL": {
+        "direction": "IO"
+      },
+      "SDA": {
+        "direction": "IO"
+      },
+      "rx": {
+        "direction": "I"
+      },
+      "tx": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "MPU6050_ctrl_0": {
+        "vlnv": "xilinx.com:module_ref:MPU6050_ctrl:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_MPU6050_ctrl_0_0",
+        "xci_path": "ip/design_1_MPU6050_ctrl_0_0/design_1_MPU6050_ctrl_0_0.xci",
+        "inst_hier_path": "MPU6050_ctrl_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "MPU6050_ctrl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_in": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "96000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "n_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "i2c_ready_in": {
+            "direction": "I"
+          },
+          "i2c_wr_valid_in": {
+            "direction": "I"
+          },
+          "i2c_rd_valid_in": {
+            "direction": "I"
+          },
+          "i2c_rd_data_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "uart_rx_valid_in": {
+            "direction": "I"
+          },
+          "uart_rx_data_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "uart_tx_ready_in": {
+            "direction": "I"
+          },
+          "uart_tx_valid_in": {
+            "direction": "I"
+          },
+          "i2c_rd_wr": {
+            "direction": "O"
+          },
+          "i2c_continuous": {
+            "direction": "O"
+          },
+          "i2c_en": {
+            "direction": "O"
+          },
+          "i2c_address": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          },
+          "i2c_data_bytes": {
+            "direction": "O",
+            "left": "5",
+            "right": "0"
+          },
+          "i2c_wr_data": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "uart_tx_en": {
+            "direction": "O"
+          },
+          "uart_tx_data": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "i2c_master_0": {
+        "vlnv": "xilinx.com:module_ref:i2c_master:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_i2c_master_0_0",
+        "xci_path": "ip/design_1_i2c_master_0_0/design_1_i2c_master_0_0.xci",
+        "inst_hier_path": "i2c_master_0",
+        "parameters": {
+          "CLK_IN_FREQ_MHZ": {
+            "value": "96"
+          },
+          "SCL_FREQ_KHZ": {
+            "value": "96"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "i2c_master",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_in": {
+            "direction": "I"
+          },
+          "n_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "rd_wr_in": {
+            "direction": "I"
+          },
+          "continuous_in": {
+            "direction": "I"
+          },
+          "enable_in": {
+            "direction": "I"
+          },
+          "address_in": {
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "data_bytes_in": {
+            "direction": "I",
+            "left": "5",
+            "right": "0"
+          },
+          "wr_data_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "ready_out": {
+            "direction": "O"
+          },
+          "wr_valid_out": {
+            "direction": "O"
+          },
+          "rd_valid_out": {
+            "direction": "O"
+          },
+          "rd_data_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "value_state": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "SCL": {
+            "direction": "IO"
+          },
+          "SDA": {
+            "direction": "IO"
+          }
+        }
+      },
+      "power_on_rst_0": {
+        "vlnv": "xilinx.com:module_ref:power_on_rst:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_power_on_rst_0_0",
+        "xci_path": "ip/design_1_power_on_rst_0_0/design_1_power_on_rst_0_0.xci",
+        "inst_hier_path": "power_on_rst_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "power_on_rst",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_in": {
+            "direction": "I"
+          },
+          "n_rst_out": {
+            "direction": "O"
+          }
+        }
+      },
+      "uart_rx_0": {
+        "vlnv": "xilinx.com:module_ref:uart_rx:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_uart_rx_0_0",
+        "xci_path": "ip/design_1_uart_rx_0_0/design_1_uart_rx_0_0.xci",
+        "inst_hier_path": "uart_rx_0",
+        "parameters": {
+          "OVERSAMPLING": {
+            "value": "10000"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "uart_rx",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_in": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "96000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "n_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "rx": {
+            "direction": "I"
+          },
+          "ready_out": {
+            "direction": "O"
+          },
+          "valid_out": {
+            "direction": "O"
+          },
+          "data_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "uart_tx_0": {
+        "vlnv": "xilinx.com:module_ref:uart_tx:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_uart_tx_0_0",
+        "xci_path": "ip/design_1_uart_tx_0_0/design_1_uart_tx_0_0.xci",
+        "inst_hier_path": "uart_tx_0",
+        "parameters": {
+          "OVERSAMPLING": {
+            "value": "10000"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "uart_tx",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_in": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "96000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "n_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "uart_en": {
+            "direction": "I"
+          },
+          "data_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "ready_out": {
+            "direction": "O"
+          },
+          "valid_out": {
+            "direction": "O"
+          },
+          "tx": {
+            "direction": "O"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "ip_revision": "13",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "xci_path": "ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "400.0"
+          },
+          "CLKOUT1_DRIVES": {
+            "value": "BUFG"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "254.806"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "249.865"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "96.000"
+          },
+          "CLKOUT2_DRIVES": {
+            "value": "BUFG"
+          },
+          "CLKOUT3_DRIVES": {
+            "value": "BUFG"
+          },
+          "CLKOUT4_DRIVES": {
+            "value": "BUFG"
+          },
+          "CLKOUT5_DRIVES": {
+            "value": "BUFG"
+          },
+          "CLKOUT6_DRIVES": {
+            "value": "BUFG"
+          },
+          "CLKOUT7_DRIVES": {
+            "value": "BUFG"
+          },
+          "FEEDBACK_SOURCE": {
+            "value": "FDBK_AUTO"
+          },
+          "MMCM_BANDWIDTH": {
+            "value": "OPTIMIZED"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "36.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "40.000"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.0"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "9.375"
+          },
+          "MMCM_COMPENSATION": {
+            "value": "ZHOLD"
+          },
+          "PRIMITIVE": {
+            "value": "MMCM"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "25.000"
+          },
+          "PRIM_SOURCE": {
+            "value": "Single_ended_clock_capable_pin"
+          },
+          "SECONDARY_SOURCE": {
+            "value": "Single_ended_clock_capable_pin"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_PHASE_ALIGNMENT": {
+            "value": "true"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      }
+    },
+    "nets": {
+      "MPU6050_ctrl_0_i2c_address": {
+        "ports": [
+          "MPU6050_ctrl_0/i2c_address",
+          "i2c_master_0/address_in"
+        ]
+      },
+      "MPU6050_ctrl_0_i2c_continuous": {
+        "ports": [
+          "MPU6050_ctrl_0/i2c_continuous",
+          "i2c_master_0/continuous_in"
+        ]
+      },
+      "MPU6050_ctrl_0_i2c_data_bytes": {
+        "ports": [
+          "MPU6050_ctrl_0/i2c_data_bytes",
+          "i2c_master_0/data_bytes_in"
+        ]
+      },
+      "MPU6050_ctrl_0_i2c_en": {
+        "ports": [
+          "MPU6050_ctrl_0/i2c_en",
+          "i2c_master_0/enable_in"
+        ]
+      },
+      "MPU6050_ctrl_0_i2c_rd_wr": {
+        "ports": [
+          "MPU6050_ctrl_0/i2c_rd_wr",
+          "i2c_master_0/rd_wr_in"
+        ]
+      },
+      "MPU6050_ctrl_0_i2c_wr_data": {
+        "ports": [
+          "MPU6050_ctrl_0/i2c_wr_data",
+          "i2c_master_0/wr_data_in"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "SCL",
+          "i2c_master_0/SCL"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "SDA",
+          "i2c_master_0/SDA"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "MPU6050_ctrl_0/clk_in",
+          "uart_rx_0/clk_in",
+          "uart_tx_0/clk_in",
+          "i2c_master_0/clk_in",
+          "power_on_rst_0/clk_in"
+        ]
+      },
+      "dev_clk_1": {
+        "ports": [
+          "dev_clk",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "i2c_master_0_rd_data_out": {
+        "ports": [
+          "i2c_master_0/rd_data_out",
+          "MPU6050_ctrl_0/i2c_rd_data_in"
+        ]
+      },
+      "i2c_master_0_rd_valid_out": {
+        "ports": [
+          "i2c_master_0/rd_valid_out",
+          "MPU6050_ctrl_0/i2c_rd_valid_in"
+        ]
+      },
+      "i2c_master_0_ready_out": {
+        "ports": [
+          "i2c_master_0/ready_out",
+          "MPU6050_ctrl_0/i2c_ready_in"
+        ]
+      },
+      "i2c_master_0_wr_valid_out": {
+        "ports": [
+          "i2c_master_0/wr_valid_out",
+          "MPU6050_ctrl_0/i2c_wr_valid_in"
+        ]
+      },
+      "power_on_rst_0_n_rst_out": {
+        "ports": [
+          "power_on_rst_0/n_rst_out",
+          "uart_rx_0/n_rst",
+          "uart_tx_0/n_rst",
+          "MPU6050_ctrl_0/n_rst",
+          "i2c_master_0/n_rst"
+        ]
+      },
+      "rx_1": {
+        "ports": [
+          "rx",
+          "uart_rx_0/rx"
+        ]
+      },
+      "uart_tx_0_tx": {
+        "ports": [
+          "uart_tx_0/tx",
+          "tx"
+        ]
+      }
+    }
+  }
+}

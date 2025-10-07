@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="1,637.423 ns"></ZoomEndTime>
-      <Cursor1Time time="60.000 ns"></Cursor1Time>
+      <ZoomStartTime time="8.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="40.914 ns"></ZoomEndTime>
+      <Cursor1Time time="54.500 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="249"></NameColumnWidth>
-      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="8" />
+   <WVObjectSize size="9" />
    <wvobject type="logic" fp_name="/testbench/dut/design_1_i/SCL">
       <obj_property name="ElementShortName">SCL</obj_property>
       <obj_property name="ObjectShortName">SCL</obj_property>
@@ -123,7 +123,6 @@
    <wvobject type="group" fp_name="group613">
       <obj_property name="label">power_on_rst</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="isExpanded"></obj_property>
       <wvobject type="logic" fp_name="/testbench/dut/design_1_i/power_on_rst_0/inst/clk_in">
          <obj_property name="ElementShortName">clk_in</obj_property>
          <obj_property name="ObjectShortName">clk_in</obj_property>
@@ -135,6 +134,15 @@
       <wvobject type="array" fp_name="/testbench/dut/design_1_i/power_on_rst_0/inst/rst_reg">
          <obj_property name="ElementShortName">rst_reg[7:0]</obj_property>
          <obj_property name="ObjectShortName">rst_reg[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group645">
+      <obj_property name="label">clocking_wizard</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/testbench/dut/design_1_i/clk_wiz_0/clk_out1">
+         <obj_property name="ElementShortName">clk_out1</obj_property>
+         <obj_property name="ObjectShortName">clk_out1</obj_property>
       </wvobject>
    </wvobject>
 </wave_config>
